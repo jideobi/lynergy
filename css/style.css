@@ -13,11 +13,11 @@ body {
 }
 
 .content {
-  background-color: rgb(15, 45, 73);
+  background-color: black;
   color: #f1f1f1;
   width: 100%;
   padding: 2px 60px 20px 60px;
-  opacity: 0.75;
+  position: inherit;
 }
 
 .content h1 {
@@ -37,7 +37,7 @@ body {
 }
 
 .content h3 {
-    font-size: 80px
+    font-size: 45px
 }
 .content h4 {
     font-size: 19px;
@@ -55,14 +55,17 @@ body {
     display: block;
 }
 .row h6  {
-    font-size: 54px;
+    font-size: 44px;
 }
-.row p{
+.row ul {
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
     color: #6aecce;
     margin-bottom: 15px;
+}
+.row h1 {
+   font-size: 18px; 
 }
 .myBtn {
   font-size: 15px;
@@ -79,7 +82,7 @@ body {
   white-space: nowrap;
   
 }
-
+  
 #myBtn:hover {
   background: rgb(221, 221, 221);
   color: black;
@@ -94,6 +97,7 @@ body {
 
 .footer div {
     text-align: center;
+    padding: 20px
 }
 
 .fa {
